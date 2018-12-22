@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		D1158B0E21B69286004EB673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1158B0D21B69286004EB673 /* AppDelegate.swift */; };
-		D1158B1021B69286004EB673 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1158B0F21B69286004EB673 /* FirstViewController.swift */; };
-		D1158B1221B69286004EB673 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1158B1121B69286004EB673 /* SecondViewController.swift */; };
 		D1158B1521B69286004EB673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1158B1321B69286004EB673 /* Main.storyboard */; };
 		D1158B1721B69289004EB673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1158B1621B69289004EB673 /* Assets.xcassets */; };
 		D1158B1A21B69289004EB673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1158B1821B69289004EB673 /* LaunchScreen.storyboard */; };
-		D1158B2521B6928A004EB673 /* budgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1158B2421B6928A004EB673 /* budgetTests.swift */; };
 		D1158B3021B6928A004EB673 /* budgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1158B2F21B6928A004EB673 /* budgetUITests.swift */; };
+		D1158B4721B6993A004EB673 /* HomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1158B4621B6993A004EB673 /* HomeTests.swift */; };
+		D1158B4921B69A1A004EB673 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1158B4821B69A1A004EB673 /* HomeViewController.swift */; };
+		D1158B4B21B69B80004EB673 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1158B4A21B69B80004EB673 /* Home.storyboard */; };
+		D1158B4F21B6BD85004EB673 /* PieChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1158B4E21B6BD85004EB673 /* PieChartTests.swift */; };
+		D1158B5121B6BE9A004EB673 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1158B5021B6BE9A004EB673 /* PieChart.swift */; };
+		D1158B5321B6BFD5004EB673 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1158B5221B6BFD5004EB673 /* Category.swift */; };
+		D1158B5A21B6CD8F004EB673 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1158B5921B6CD8F004EB673 /* PieChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,18 +41,22 @@
 /* Begin PBXFileReference section */
 		D1158B0A21B69286004EB673 /* budget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = budget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1158B0D21B69286004EB673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D1158B0F21B69286004EB673 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		D1158B1121B69286004EB673 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		D1158B1421B69286004EB673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1158B1621B69289004EB673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1158B1921B69289004EB673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1158B1B21B69289004EB673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1158B2021B6928A004EB673 /* budgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = budgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1158B2421B6928A004EB673 /* budgetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = budgetTests.swift; sourceTree = "<group>"; };
 		D1158B2621B6928A004EB673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1158B2B21B6928A004EB673 /* budgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = budgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1158B2F21B6928A004EB673 /* budgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = budgetUITests.swift; sourceTree = "<group>"; };
 		D1158B3121B6928A004EB673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1158B4621B6993A004EB673 /* HomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTests.swift; sourceTree = "<group>"; };
+		D1158B4821B69A1A004EB673 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D1158B4A21B69B80004EB673 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		D1158B4E21B6BD85004EB673 /* PieChartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartTests.swift; sourceTree = "<group>"; };
+		D1158B5021B6BE9A004EB673 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		D1158B5221B6BFD5004EB673 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		D1158B5921B6CD8F004EB673 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,11 @@
 		D1158B0C21B69286004EB673 /* budget */ = {
 			isa = PBXGroup;
 			children = (
+				D1158B5621B6CD5B004EB673 /* Utils */,
 				D1158B4021B69305004EB673 /* Supporting Files */,
 				D1158B3F21B692EC004EB673 /* ViewModels */,
 				D1158B3E21B692E4004EB673 /* Views */,
 				D1158B3D21B692D8004EB673 /* Models */,
-				D1158B0F21B69286004EB673 /* FirstViewController.swift */,
-				D1158B1121B69286004EB673 /* SecondViewController.swift */,
-				D1158B1321B69286004EB673 /* Main.storyboard */,
 				D1158B1621B69289004EB673 /* Assets.xcassets */,
 			);
 			path = budget;
@@ -114,8 +120,9 @@
 		D1158B2321B6928A004EB673 /* budgetTests */ = {
 			isa = PBXGroup;
 			children = (
-				D1158B2421B6928A004EB673 /* budgetTests.swift */,
 				D1158B2621B6928A004EB673 /* Info.plist */,
+				D1158B4621B6993A004EB673 /* HomeTests.swift */,
+				D1158B4E21B6BD85004EB673 /* PieChartTests.swift */,
 			);
 			path = budgetTests;
 			sourceTree = "<group>";
@@ -132,6 +139,8 @@
 		D1158B3D21B692D8004EB673 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D1158B5021B6BE9A004EB673 /* PieChart.swift */,
+				D1158B5221B6BFD5004EB673 /* Category.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -161,6 +170,7 @@
 				D1158B1B21B69289004EB673 /* Info.plist */,
 				D1158B0D21B69286004EB673 /* AppDelegate.swift */,
 				D1158B1821B69289004EB673 /* LaunchScreen.storyboard */,
+				D1158B1321B69286004EB673 /* Main.storyboard */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -168,6 +178,9 @@
 		D1158B4121B697C1004EB673 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				D1158B5521B6CD2D004EB673 /* New Group */,
+				D1158B4821B69A1A004EB673 /* HomeViewController.swift */,
+				D1158B4A21B69B80004EB673 /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -198,6 +211,37 @@
 			children = (
 			);
 			path = Budget;
+			sourceTree = "<group>";
+		};
+		D1158B5521B6CD2D004EB673 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		D1158B5621B6CD5B004EB673 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D1158B5721B6CD67004EB673 /* Views */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D1158B5721B6CD67004EB673 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D1158B5821B6CD70004EB673 /* PieChart */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D1158B5821B6CD70004EB673 /* PieChart */ = {
+			isa = PBXGroup;
+			children = (
+				D1158B5921B6CD8F004EB673 /* PieChartView.swift */,
+			);
+			path = PieChart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +351,7 @@
 				D1158B1A21B69289004EB673 /* LaunchScreen.storyboard in Resources */,
 				D1158B1721B69289004EB673 /* Assets.xcassets in Resources */,
 				D1158B1521B69286004EB673 /* Main.storyboard in Resources */,
+				D1158B4B21B69B80004EB673 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,9 +376,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1158B1221B69286004EB673 /* SecondViewController.swift in Sources */,
+				D1158B5121B6BE9A004EB673 /* PieChart.swift in Sources */,
+				D1158B5A21B6CD8F004EB673 /* PieChartView.swift in Sources */,
 				D1158B0E21B69286004EB673 /* AppDelegate.swift in Sources */,
-				D1158B1021B69286004EB673 /* FirstViewController.swift in Sources */,
+				D1158B4921B69A1A004EB673 /* HomeViewController.swift in Sources */,
+				D1158B5321B6BFD5004EB673 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +388,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1158B2521B6928A004EB673 /* budgetTests.swift in Sources */,
+				D1158B4721B6993A004EB673 /* HomeTests.swift in Sources */,
+				D1158B4F21B6BD85004EB673 /* PieChartTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
